@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gavin.Util", "Gavin.Util\Gavin.Util.csproj", "{CCC8BB4E-C025-46C1-A379-89B9E6645B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gavin.Util.Tests", "Gavin.Util.Tests\Gavin.Util.Tests.csproj", "{D4851B3A-A520-4BD2-A465-AD1AEE7796A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{83C0F50D-B58F-4997-870D-EE67B7E13A2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A2185488-A2C6-4F8F-B306-B6F24D22B12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gavin.Util.Domain", "Gavin.Util.Domain\Gavin.Util.Domain.csproj", "{5E87E250-6329-4710-B5AB-146F1B13BD14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCC8BB4E-C025-46C1-A379-89B9E6645B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC8BB4E-C025-46C1-A379-89B9E6645B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC8BB4E-C025-46C1-A379-89B9E6645B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC8BB4E-C025-46C1-A379-89B9E6645B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4851B3A-A520-4BD2-A465-AD1AEE7796A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4851B3A-A520-4BD2-A465-AD1AEE7796A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4851B3A-A520-4BD2-A465-AD1AEE7796A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4851B3A-A520-4BD2-A465-AD1AEE7796A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E87E250-6329-4710-B5AB-146F1B13BD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E87E250-6329-4710-B5AB-146F1B13BD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E87E250-6329-4710-B5AB-146F1B13BD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E87E250-6329-4710-B5AB-146F1B13BD14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCC8BB4E-C025-46C1-A379-89B9E6645B89} = {83C0F50D-B58F-4997-870D-EE67B7E13A2D}
+		{D4851B3A-A520-4BD2-A465-AD1AEE7796A9} = {83C0F50D-B58F-4997-870D-EE67B7E13A2D}
+		{5E87E250-6329-4710-B5AB-146F1B13BD14} = {A2185488-A2C6-4F8F-B306-B6F24D22B12C}
+	EndGlobalSection
+EndGlobal
