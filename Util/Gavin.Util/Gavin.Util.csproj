@@ -42,9 +42,14 @@
   <ItemGroup>
     <Compile Include="ConvertHelper.cs" />
     <Compile Include="Extensions\Convert.cs" />
+    <Compile Include="Logs\LogLevel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validations\IValidation.cs" />
+    <Compile Include="Validations\IValidationHandler.cs" />
+    <Compile Include="Validations\IValidationRule.cs" />
+    <Compile Include="Validations\ValidationHandler.cs" />
     <Compile Include="Validations\ValidationResultCollection.cs" />
+    <Compile Include="Warning.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

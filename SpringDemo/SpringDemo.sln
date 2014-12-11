@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{08F0E865-14AC-4C49-B02E-6AB9C159FDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao", "Dao\Dao.csproj", "{58DBA22A-456A-4567-AE2E-5A726635FA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaoFactory", "DaoFactory\DaoFactory.csproj", "{389A6C83-0461-4CBB-9220-60572809BC4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08F0E865-14AC-4C49-B02E-6AB9C159FDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F0E865-14AC-4C49-B02E-6AB9C159FDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F0E865-14AC-4C49-B02E-6AB9C159FDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F0E865-14AC-4C49-B02E-6AB9C159FDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DBA22A-456A-4567-AE2E-5A726635FA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DBA22A-456A-4567-AE2E-5A726635FA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DBA22A-456A-4567-AE2E-5A726635FA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DBA22A-456A-4567-AE2E-5A726635FA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389A6C83-0461-4CBB-9220-60572809BC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389A6C83-0461-4CBB-9220-60572809BC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389A6C83-0461-4CBB-9220-60572809BC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389A6C83-0461-4CBB-9220-60572809BC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
